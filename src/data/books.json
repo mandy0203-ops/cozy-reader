@@ -1,0 +1,236 @@
+[
+  {
+    "id": 1,
+    "title": "10倍成長思維：成功者獲得時間、財富、人際圈、目標自由的高效成長法則",
+    "author": "丹．蘇利文 Dan Sullivan",
+    "cover": "/covers/cover_0.jpeg",
+    "path": "/books/10倍成長思維.epub",
+    "contentPath": "/content/book_1.json",
+    "type": "epub"
+  },
+  {
+    "id": 2,
+    "title": "新媒體運營（第3版）",
+    "author": "曾淑文",
+    "cover": "/covers/cover_1.jpeg",
+    "path": "/books/344003_新媒體運營（第3版）.epub",
+    "contentPath": "/content/book_2.json",
+    "type": "epub"
+  },
+  {
+    "id": 3,
+    "title": "AI自媒體寫作超簡單",
+    "author": "安曉輝",
+    "cover": "/covers/cover_2.jpeg",
+    "path": "/books/AI自媒體寫作超簡單.epub",
+    "contentPath": "/content/book_3.json",
+    "type": "epub"
+  },
+  {
+    "id": 4,
+    "title": "NLP思維：高效人士都在用的影響力溝通技能",
+    "author": "傑裡米．拉薩路",
+    "cover": "/covers/cover_3.jpeg",
+    "path": "/books/NLP思維.epub",
+    "contentPath": "/content/book_4.json",
+    "type": "epub"
+  },
+  {
+    "id": 5,
+    "title": "《30個必學的AI行政工作術》",
+    "author": "賴彥廷",
+    "cover": "/covers/cover_4.jpeg",
+    "path": "/books/《30個必學的AI行政工作術》.epub",
+    "contentPath": "/content/book_5.json",
+    "type": "epub"
+  },
+  {
+    "id": 6,
+    "title": "《一人公司》",
+    "author": "保羅．賈維斯",
+    "cover": "/covers/cover_5.jpeg",
+    "path": "/books/《一人公司》.epub",
+    "contentPath": "/content/book_6.json",
+    "type": "epub"
+  },
+  {
+    "id": 7,
+    "title": "《活著覺得麻煩的人》",
+    "author": "岡田尊司",
+    "cover": "/covers/cover_6.jpeg",
+    "path": "/books/《活著覺得麻煩的人》.epub",
+    "contentPath": "/content/book_7.json",
+    "type": "epub"
+  },
+  {
+    "id": 8,
+    "title": "加速理想成真的顯化練習：讓人生脫胎換骨的26項深度訓練",
+    "author": "Roxie Nafousi",
+    "cover": "/covers/cover_7.jpeg",
+    "path": "/books/加速理想成真的顯化練習.epub",
+    "contentPath": "/content/book_8.json",
+    "type": "epub"
+  },
+  {
+    "id": 9,
+    "title": "外遇之後：彌合創傷，重建信任（第三版）",
+    "author": "賈妮斯·亞伯拉姆斯·斯普林",
+    "cover": "/covers/cover_8.jpeg",
+    "path": "/books/外遇之後：彌合創傷，重建信任（第三版）.epub",
+    "contentPath": "/content/book_9.json",
+    "type": "epub"
+  },
+  {
+    "id": 10,
+    "title": "如何讓人改變想法：關於信念、觀點與說服技巧",
+    "author": "乐天无极",
+    "cover": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&q=80&w=400",
+    "path": "/books/如何讓人改變想法.epub",
+    "contentPath": "/content/book_10.json",
+    "type": "epub"
+  },
+  {
+    "id": 11,
+    "title": "專家機密：流量致富時代，從圈粉到鐵粉的19個金牌腳本",
+    "author": "羅素．布朗森",
+    "cover": "/covers/cover_10.jpeg",
+    "path": "/books/專家機密：流量致富時代，從圈粉到鐵粉的19個金牌腳本+(羅素+·+布朗森+(Russell+Brunson)+著,+李靜怡+譯）(9786267102220).epub",
+    "contentPath": "/content/book_11.json",
+    "type": "epub"
+  },
+  {
+    "id": 12,
+    "title": "底層邏輯 看清這個世界的底牌（擁有看透世界的底牌，啟動“開掛”的人生。“5分鐘商學院”背後的思維方式）",
+    "author": "劉潤",
+    "cover": "/covers/cover_11.jpeg",
+    "path": "/books/底層邏輯.epub",
+    "contentPath": "/content/book_12.json",
+    "type": "epub"
+  },
+  {
+    "id": 13,
+    "title": "快速顯化你想要的人生：七心法掌握心想事成的力量",
+    "author": "蘿希．納福斯(Roxie Nafousi)",
+    "cover": "/covers/cover_12.jpeg",
+    "path": "/books/快速顯化你想要的人生.epub",
+    "contentPath": "/content/book_13.json",
+    "type": "epub"
+  },
+  {
+    "id": 14,
+    "title": "怪",
+    "author": "宮部美幸",
+    "cover": "/covers/cover_13.jpeg",
+    "path": "/books/怪.epub",
+    "contentPath": "/content/book_14.json",
+    "type": "epub"
+  },
+  {
+    "id": 15,
+    "title": "我可能錯了：森林智者的最後一堂人生課",
+    "author": "比約恩．納提科．林德布勞（Björn Natthiko Lindeblad）、卡洛琳．班克勒（Caroline Bankler）、納維德．莫迪里（Navid Modiri）",
+    "cover": "/covers/cover_14.jpeg",
+    "path": "/books/我可能錯了.epub",
+    "contentPath": "/content/book_15.json",
+    "type": "epub"
+  },
+  {
+    "id": 16,
+    "title": "我想跟你好好說話：賴佩霞的六堂「非暴力溝通」入門課",
+    "author": "賴佩霞",
+    "cover": "/covers/cover_15.jpeg",
+    "path": "/books/我想跟你好好說話：賴佩霞的六堂「非暴力溝通」入門課.epub",
+    "contentPath": "/content/book_16.json",
+    "type": "epub"
+  },
+  {
+    "id": 17,
+    "title": "新媒體運營實戰指南：社群運營•短視頻運營•直播運營•微信運營",
+    "author": "陳政峰",
+    "cover": "/covers/cover_16.jpeg",
+    "path": "/books/新媒體運營實戰指南：社群運營•短視頻運營•直播運營•微信運營.epub",
+    "contentPath": "/content/book_17.json",
+    "type": "epub"
+  },
+  {
+    "id": 18,
+    "title": "日本頂尖執事教你察言觀色的28堂課",
+    "author": "新井直之",
+    "cover": "/covers/cover_17.jpeg",
+    "path": "/books/日本頂尖執事教你察言觀色的28堂課.epub",
+    "contentPath": "/content/book_18.json",
+    "type": "epub"
+  },
+  {
+    "id": 19,
+    "title": "會問問題，才會帶人(十周年紀念版)",
+    "author": "克莉絲．克拉克－艾普斯坦（Chris Clarke-Epstein）",
+    "cover": "/covers/cover_18.jpeg",
+    "path": "/books/會問問題，才會帶人.epub",
+    "contentPath": "/content/book_19.json",
+    "type": "epub"
+  },
+  {
+    "id": 20,
+    "title": "框架效應：打破自己的認知侷限，看見問題本質，告別慣性偏誤的心理學智慧",
+    "author": "崔仁哲",
+    "cover": "/covers/cover_19.jpeg",
+    "path": "/books/框架效應.epub",
+    "contentPath": "/content/book_20.json",
+    "type": "epub"
+  },
+  {
+    "id": 21,
+    "title": "為了活下去：脫北女孩樸研美",
+    "author": "SoBooks",
+    "cover": "/covers/cover_20.jpeg",
+    "path": "/books/為了活下去脫北女孩樸研美.epub",
+    "contentPath": "/content/book_21.json",
+    "type": "epub"
+  },
+  {
+    "id": 22,
+    "title": "21天使你信心百倍：自信的秘密",
+    "author": "羅伯特·安東尼",
+    "cover": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&q=80&w=400",
+    "path": "/books/自信的秘密.epub",
+    "contentPath": "/content/book_22.json",
+    "type": "epub"
+  },
+  {
+    "id": 23,
+    "title": "親密關係：通往靈魂的橋梁",
+    "author": "克里斯多福·孟",
+    "cover": "/covers/cover_22.jpeg",
+    "path": "/books/親密關係.epub",
+    "contentPath": "/content/book_23.json",
+    "type": "epub"
+  },
+  {
+    "id": 24,
+    "title": "解剖犯罪實驗室:揭露鑑識科學的缺陷與危機",
+    "author": "布蘭登．葛雷特（Brandon L. Garrett）",
+    "cover": "/covers/cover_23.jpeg",
+    "path": "/books/解剖犯罪實驗室.epub",
+    "contentPath": "/content/book_24.json",
+    "type": "epub"
+  },
+  {
+    "id": 25,
+    "title": "超越AI的思考架構",
+    "author": "庫基耶（Kenneth Cukier）;麥爾荀伯格（Viktor Mayer-Schönberger）;德菲爾利科德（Francis de Véricourt）",
+    "cover": "/covers/cover_24.jpeg",
+    "path": "/books/超越AI的思考架構.epub",
+    "contentPath": "/content/book_25.json",
+    "type": "epub"
+  },
+  {
+    "id": 26,
+    "title": "重啟人生：一個哈佛教授的生命領悟，給你把餘生過好的簡單建議",
+    "author": "亞瑟．布魯克斯",
+    "cover": "/covers/cover_25.jpeg",
+    "path": "/books/重啟人生.epub",
+    "contentPath": "/content/book_26.json",
+    "type": "epub"
+  }
+]
