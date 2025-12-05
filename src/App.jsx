@@ -1,9 +1,10 @@
 
 import React, { useState, useEffect, useRef } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link, useParams } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link, useParams } from 'react-router-dom';
 import {
   Pause, Play, ArrowLeft, Settings, List, Sparkles, SkipBack, SkipForward,
-  Laptop, AlertCircle, X, ChevronLeft, ChevronRight
+  Laptop, AlertCircle, X, ChevronLeft, ChevronRight, Cloud, Sun, Moon,
+  Music, Coffee, Heart, Star, Smile
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import booksData from './data/books.json';
@@ -14,6 +15,18 @@ import { twMerge } from 'tailwind-merge';
 function cn(...inputs) {
   return twMerge(clsx(inputs));
 }
+
+const resolvePath = (path) => {
+  if (!path) return '';
+  if (path.startsWith('http')) return path;
+  const baseUrl = import.meta.env.BASE_URL;
+  // Remove leading slash from path if present to avoid double slashes
+  const cleanPath = path.startsWith('/') ? path.slice(1) : path;
+  // Remove trailing slash from baseUrl if present
+  const cleanBase = baseUrl.endsWith('/') ? baseUrl.slice(0, -1) : baseUrl;
+  return `${cleanBase}/${cleanPath}`;
+};
+
 
 // --- Components ---
 
@@ -205,7 +218,7 @@ const BookCard = ({ book, progress }) => {
       {/* Cover Image Area - Focus on clarity */}
       <div className="relative aspect-[3/4] w-full bg-gray-50 overflow-hidden border-b border-gray-50">
         <img
-          src={book.cover}
+          src={resolvePath(book.cover)}
           alt={book.title}
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
         />
@@ -356,7 +369,7 @@ const ReaderPage = () => {
       const allVoices = synth.getVoices();
 
       const zhVoices = allVoices.filter(v =>
-        v.lang.includes('zh-TW') || v.lang.includes('zh-HK') || v.name.includes('Meijia') || v.name.includes('Sin-ji')
+        v.lang.includes('zh-TW') || v.lang.includes('zh-HK') || v.name.includes('Meijia') || v.name.includes('Enhanced') || v.name.includes('Sin-ji')
       );
 
       zhVoices.sort((a, b) => {
@@ -384,9 +397,10 @@ const ReaderPage = () => {
       setLoading(true);
       setErrorMsg(null);
 
-      console.log(`Loading book content from: ${book.contentPath}`);
+      const fullPath = resolvePath(book.contentPath);
+      console.log(`Loading book content from: ${fullPath}`);
 
-      fetch(book.contentPath)
+      fetch(fullPath)
         .then(res => {
           if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
           return res.json();
